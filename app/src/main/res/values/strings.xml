@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">FifteenPuzzle</string>
+    <string name="GameOver">GAME OVER!</string>
+    <string name="GameWin">CONGRATULATIONS YOU WIN THE GAME!</string>
+    <string name="LanguageSelect">Select your language</string>
+    <string name="Copyright" translatable="false">© 2019 Adriano Di Dio</string>
+    <string name="Retry">RETRY</string>
+    <string name="Menu">MENU</string>
+    <string name="Quit">QUIT</string>
+    <string name="Settings">SETTINGS</string>
+    <string name="Play">PLAY</string>
+    <string name="ThreeTimesThree" translatable="false">3x3</string>
+    <string name="FourTimesFour" translatable="false">4x4</string>
+    <string name="Back">BACK</string>
+    <string name="GeneralSettings">GENERAL</string>
+    <string name="ShowDebugInfo">Show Debug Info</string>
+    <string name="SoundEffects">Sound Effects</string>
+    <string name="MainMenu">MAIN MENU</string>
+    <string name="Difficulty">DIFFICULTY</string>
+</resources>

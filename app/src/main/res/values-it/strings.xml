@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="LanguageSelect">Seleziona la tua lingua</string>
+    <string name="Retry">RIPROVA</string>
+    <string name="Menu">MENU</string>
+    <string name="Quit">ESCI</string>
+    <string name="Settings">IMPOSTAZIONI</string>
+    <string name="Play">GIOCA</string>
+    <string name="Back">INDIETRO</string>
+    <string name="GeneralSettings">GENERALI</string>
+    <string name="ShowDebugInfo">Mostra Info Di Debug</string>
+    <string name="SoundEffects">Effetti Sonori</string>
+    <string name="MainMenu">MENU PRINCIPALE</string>
+    <string name="Difficulty">DIFFICOLTÀ</string>
+    <string name="GameWin">CONGRATULAZIONI HAI VINTO!</string>
+    <string name="GameOver">HAI PERSO!</string>
+</resources>

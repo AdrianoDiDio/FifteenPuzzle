@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="colorshader2d"/>
+    <item type="id" name="textureshader2d"/>
+    <item type="id" name="fontshader"/>
+    <!-- Buttons -->
+    <item type="id" name="ItalianLanguageButton"/>
+    <item type="id" name="EnglishLanguageButton"/>
+    <item type="id" name="RetryButton"/>
+    <item type="id" name="PlayButton"/>
+    <item type="id" name="BackButton"/>
+    <item type="id" name="SettingsButton"/>
+    <item type="id" name="BackToSettingsButton"/>
+    <item type="id" name="GeneralSettingsButton"/>
+    <item type="id" name="GridSize9Button"/>
+    <item type="id" name="GridSize16Button"/>
+    <item type="id" name="BackToMainButton"/>
+    <item type="id" name="QuitButton"/>
+    <!-- Labels -->
+    <item type="id" name="ShowDebugInfoLabel"/>
+    <item type="id" name="SetSmoothTileMotionLabel"/>
+    <item type="id" name="SetSoundEffectsLabel"/>
+    <!-- Panels -->
+    <item type="id" name="BackgroundPanel"/>
+    <item type="id" name="SkillPanel"/>
+    <item type="id" name="SettingsPanel"/>
+    <item type="id" name="GeneralSettingsPanel"/>
+    <item type="id" name="MainPanel"/>
+    <item type="id" name="ButtonsPanel"/>
+    <item type="id" name="GameHeaderPanel"/>
+    <item type="id" name="MainGamePanel"/>
+
+
+
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Directory that will be scanned by our asset manager
+        Add a directory here and all the supported files will be loaded.
+        Zip Files will be automatically extracted.
+    -->
+    <string-array name="ResourceFileDirs">
+        <item>Font</item>
+        <item>Grid</item>
+        <item>Ui</item>
+    </string-array>
+    <!-- FONT -->
+    <string-array name="FontFiles">
+        <item>AFont</item>
+        <item>AFontMedium</item>
+        <item>AFontBig</item>
+    </string-array>
+    <string name="GridImageFilePattern">GridNumber%d.png</string>
+    <string name="FontPackFile">Font/FontPack.zip</string>
+    <!-- GRID -->
+    <string name="GridNumbersFile">Grid/GridNumbers.zip</string>
+    <!-- UI PACK -->
+
+</resources>
