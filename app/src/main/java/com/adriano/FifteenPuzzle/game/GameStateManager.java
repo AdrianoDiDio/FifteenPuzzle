@@ -81,12 +81,9 @@ public class GameStateManager {
             CurrentState.OnDestroy();
         }
         CurrentState = NewState;
-        RenderUtils.QueueEvent(new Runnable() {
-            @Override
-            public void run() {
-                Timber.d("Requested state switch...");
-                CurrentState.Init(RenderUtils);
-            }
+        RenderUtils.QueueEvent(() -> {
+            Timber.d("Requested state switch...");
+            CurrentState.Init(RenderUtils);
         });
     }
 
@@ -108,7 +105,6 @@ public class GameStateManager {
         Timber.d("Initializing OpenGL Utils.");
         RenderUtils = new RenderEngine(AndroidContext,Surface);
         ChangeState( new IntroState(this) );
-        //ChangeState( new MainMenuState(this) );
         DebugSystem = new DebugOverlay(RenderUtils);
     }
 

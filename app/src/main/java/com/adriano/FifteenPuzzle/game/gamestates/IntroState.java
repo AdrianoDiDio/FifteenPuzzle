@@ -38,7 +38,6 @@ public class IntroState extends GameState {
     @Override
     public boolean OnTouch(MotionEvent Event) {
         ChangeState(new MainMenuState(Manager));
-        //ChangeState(new LanguageSelectState(Manager));
         return false;
     }
 

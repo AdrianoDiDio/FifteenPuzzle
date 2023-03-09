@@ -48,7 +48,7 @@ public class GameOverState extends GameState implements SurfaceChangedObserver,G
     private String GameOverString;
     private int CurrentAdvanceCharIndex;
     private GLString GameOverText;
-    private long LastTextDrawTime;
+    private float LastTextDrawTime;
     private GLHorizontalPanel ButtonsPanel;
     private boolean HasWin;
     private int PreviousGridSize;
@@ -148,11 +148,11 @@ public class GameOverState extends GameState implements SurfaceChangedObserver,G
 
         if( !DoneAnimateText() ) {
             LastTextDrawTime += RenderUtils.Time.Delta;
-            if (LastTextDrawTime > 5) {
+            if (LastTextDrawTime > 5.f) {
                 Timber.d("Advancing it");
                 //Advance it!
                 AdvanceText();
-                LastTextDrawTime = 0;
+                LastTextDrawTime = 0.f;
             }
         } else {
             ButtonsPanel.SetActive(true);
@@ -187,7 +187,7 @@ public class GameOverState extends GameState implements SurfaceChangedObserver,G
             GameOverString = Manager.GetStringFromResources(R.string.GameOver);
         }
         CurrentAdvanceCharIndex = 0;
-        LastTextDrawTime = 0;
+        LastTextDrawTime = 0.f;
         InitPanels();
         AdvanceText();
         UpdateLayout();
